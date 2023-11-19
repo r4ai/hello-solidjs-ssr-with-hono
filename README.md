@@ -1,15 +1,18 @@
-# solid-play
+# hello-solidjs-ssr-with-hono
 
-To install dependencies:
+Hono と vite を使って、Solid.js で SSR するサンプルレポジトリ
 
-```bash
-bun install
-```
-
-To run:
+> [!warning]
+> 実験用のリポジトリです
 
 ```bash
-bun run index.ts
+# Run dev server
+bun run vite
 ```
 
-This project was created using `bun init` in bun v1.0.12. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## Pages
+
+- `/`: Simple syncronous server-side rendering page. using `renderToString`
+- `/async`: Asyncronous server-side rendering page. using `renderToStringAsync`
+
+## References
